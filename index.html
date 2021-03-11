@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacts.css">
+    <script src="phonebook.js"></script>
+    <title>Contact Book</title>
+</head>
+<body>
+    <div class="heading">
+        <h3>Contacts</h3>
+    </div>
+    
+    <div class="addbtndiv">
+        <button id="QuickAdd" class="commonbtn">Add Contact</button>
+    </div>
+
+   
+    <div class="mainframe">
+        <div class="contactaddbook">
+               <!-- <div class="entry">
+                   
+                     
+                            <div class="name">MANOJ REDDY</div>
+                            <div class="phone">8985297924</div>
+                            <div class="email">francismanojredddy@gmail.com</div>
+                            <div class="address"><textarea  cols="30" rows="5">1-35/2,patibandla,guntur,Ap -522402</textarea></div>
+                            <div class="del"><button> Delete</button></div>
+                       
+                   
+                </div> -->
+            
+        </div>
+        <div class="quickaddform">
+            <h2>Enter Details</h2>
+        <table>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" id="fullName" class="inpClasses" required></td>   
+            </tr> 
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="tel" id="Phone" class="inpClasses" required></td>   
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" id="Email"  class="inpClasses" required></td>   
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea  id="Address" cols="30" rows="10" style="border-radius: 10px;"  class="inpClasses" required></textarea></td>   
+            </tr>
+           
+            <tr>
+                <td><button id="Add" class="btns">Save</button></td>
+                <td><button id="Cancel" class="btns cancel">Cancel</button></td>
+            </tr>
+        
+        </table>
+
+        </div>
+</div>
+</body>
+</html>

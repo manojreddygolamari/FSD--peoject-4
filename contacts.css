@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Inter:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.heading{
+    font-family: "RocknRoll One";
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    margin: 2% 0;
+    justify-content: center;
+    text-align: center;
+}
+body{
+    background-color: burlywood;
+}
+.addbtndiv{
+   padding-left: 50px;
+   padding-bottom: 30px;
+
+}
+.commonbtn{
+    padding: 6px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: brown;
+    
+}
+.commonbtn:hover{
+    background-color: rgb(89, 117, 192);
+    color: #FFF;
+    
+}
+.btns{
+    padding: 6px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(182, 59, 59);
+}
+.btns:hover{
+    background-color: green;
+    color: #FFF;
+}
+.cancel:hover{
+    background-color: rgb(218, 24, 24);
+    color: #FFF;
+}
+.delbtn{
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.delbtn:hover{
+    background-color: rgb(218, 24, 24);
+    color: #FFF;
+}
+
+textarea{
+    font-family:"Inter";
+    font-weight:700;
+    color: black;
+}
+h2{
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.quickaddform{
+    width: 35%;
+    height: 350px;
+    font-family:"Inter";
+    font-weight: bold;
+    padding-top: 50px;
+    visibility: hidden;
+   border: dotted;
+   border-radius: 30px;
+   margin:0 auto;
+}
+.quickaddform input{
+    width: 100%;
+    height: 20px;
+    font-family:"Inter";
+    border-radius: 8px;
+    
+}
+.entry div{
+    
+    display: table-cell;
+    text-align: center;
+}
+.entry {
+    display: table;
+    width: 100%;
+    table-layout:fixed; 
+    padding-right: 20px;
+}
+
+
+
